@@ -2,7 +2,7 @@
 
 int soma(int a, int b, int c){
 
-    int maior, menor;
+    int maior = a, menor = a;
 
     if(a > b && a > c){
         maior = a;
