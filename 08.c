@@ -2,7 +2,7 @@
 
 double juros(double t, double c, int m){
 
-    return c * m * t;
+    return c * m * (t/100);
 
 }
 
